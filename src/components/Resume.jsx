@@ -95,7 +95,7 @@ function Resume() {
         <ul className="list-disc list-inside text-gray-300">
           <li>
             <strong>Portfolio Website</strong> - A React-based portfolio with Tailwind CSS.  
-            <a href="https://your-portfolio.com" className="text-purple-400"> View Project</a>
+            <a href="https://project-bay-mu.vercel.app/" className="text-purple-400"> View Project</a>
           </li>
           <li>
             <strong>E-commerce UI</strong> - Built a dark-themed e-commerce UI using React Router.
