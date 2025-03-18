@@ -1,11 +1,18 @@
 {
   "name": "vite-react-portfolio",
+  "homepage": "https://owaiskhan-dev.github.io/project/",
   "private": true,
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owaiskhan-dev/project.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+       "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -20,6 +27,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.18",
     "eslint": "^9.9.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^6.2.1"
